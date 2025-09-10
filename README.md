@@ -1,2 +1,2 @@
 # recipes
-A collection of hearty recipes
+A collection of hearty recipes.
