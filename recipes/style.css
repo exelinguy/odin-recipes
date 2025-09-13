@@ -37,24 +37,23 @@ img{
     margin: auto;
     justify-content: center;
     border: 2px solid black;
+    height: auto;
+    width: 256px;
 }
 
 div{
     width: fit-content;
     display: flexbox;
-    margin: 0 0 0 20px;
+    margin: 0 5% 0 5%;
 }
 
 h1 {
     
     display: block;
-    margin: 50px ;
+    margin-top: 50px ;
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
-    text-align: center;
-    text-decoration: overline underline;
-    text-underline-offset: 0.5em;
-
-    
+    font-weight: 800;
+    text-align: center;    
 }
 
 div p{
@@ -62,8 +61,7 @@ div p{
 }
 
 div ul {
-    font-size: large;
-    text-align: left;
+    list-style-type: square;
 }
 
 div a{

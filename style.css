@@ -41,14 +41,13 @@ a {
 div{
     text-align: center;
     width: fit-content;
-    display: flex;
     margin: auto;
 }
 
 h1 {
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     font-size: 50px;
-    weight: 800;
+    font-weight: 800;
     display: inline-block;
     background-image: repeating-linear-gradient(135deg, #553c9a, #ee4b2b 10%, #553c9a 20%);
     color: transparent;
@@ -67,4 +66,9 @@ div ul {
     font-size: large;
     text-align: left;
     list-style-type: "🍲";
+    padding-left: 20;
+}
+
+ul li{
+    padding-left: 0.5em;
 }
